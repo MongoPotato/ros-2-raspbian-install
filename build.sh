@@ -31,8 +31,7 @@ apt install -y \
 
 
 # Clone my custom made repository with all the CMakeLists.txt modifications to be ready to compile on armhf on raspbian (bookworm 32 bit)
-git clone https://github.com/MongoPotato/ros-2-raspbian-install.git
-cd ros2_humble/
+cd ~/ros-2-raspbian-install/ros2_humble/
 
 # ROS 2 packages are built on frequently updated debian systems. It is always recommended that you ensure your system is up to date before installing new packages.
 
