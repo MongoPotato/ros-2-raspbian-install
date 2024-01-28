@@ -1,0 +1,16 @@
+/usr/local/include/mimick/alloc.h
+/usr/local/include/mimick/assert.h
+/usr/local/include/mimick/literal.h
+/usr/local/include/mimick/matcher.h
+/usr/local/include/mimick/mock.h
+/usr/local/include/mimick/preprocess.h
+/usr/local/include/mimick/string.h
+/usr/local/include/mimick/unmocked.h
+/usr/local/include/mimick/va.h
+/usr/local/include/mimick/verify.h
+/usr/local/include/mimick/when.h
+/usr/local/include/mimick/mimick.h
+/usr/local/lib/libmimick.a
+/usr/local/lib/cmake/mimick/mimick-targets.cmake
+/usr/local/lib/cmake/mimick/mimick-targets-noconfig.cmake
+/usr/local/lib/cmake/mimick/mimickConfig.cmake

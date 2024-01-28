@@ -1,0 +1,102 @@
+-- CMAKE_CURRENT_BINARY_DIR: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor
+-- PROJECT_NAME install dir: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick_vendor_install
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor
+[ 12%] [34m[1mCreating directories for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[ 25%] [34m[1mPerforming download step (git clone) for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+Cloning into 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'...
+HEAD is now at de11f83 Support raspberry pi zero (#21)
+[ 37%] [34m[1mNo update step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[ 50%] [34m[1mNo patch step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[ 62%] [34m[1mPerforming configure step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/arm-linux-gnueabihf-gcc
+-- Looking for __stdio_common_vfprintf
+-- Looking for __stdio_common_vfprintf - not found
+-- Looking for _r_debug
+-- Looking for _r_debug - found
+-- Looking for _DYNAMIC
+-- Looking for _DYNAMIC - found
+-- Performing Test HAVE_ELF_AUXV_T
+-- Performing Test HAVE_ELF_AUXV_T - Success
+-- Performing Test HAVE_ELF_AUXINFO
+-- Performing Test HAVE_ELF_AUXINFO - Failed
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for MAP_ANONYMOUS
+-- Looking for MAP_ANONYMOUS - found
+-- Looking for MAP_ANON
+-- Looking for MAP_ANON - found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-build
+[ 75%] [34m[1mPerforming build step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[  4%] [32mBuilding C object sample/strdup/CMakeFiles/strdup.dir/strdup.c.o[0m
+[  9%] [32mBuilding C object test/CMakeFiles/foo.dir/libfoo.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/mimick.dir/src/core.c.o[0m
+[ 18%] [32mBuilding ASM object CMakeFiles/mimick.dir/src/asm/trampoline-arm.S.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/mimick.dir/src/matcher.c.o[0m
+[ 27%] [32m[1mLinking C shared library libstrdup.so[0m
+[ 31%] [32m[1mLinking C shared library libfoo.so[0m
+[ 36%] [32mBuilding C object CMakeFiles/mimick.dir/src/mock.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/mimick.dir/src/plt.c.o[0m
+[ 40%] Built target strdup
+[ 40%] Built target foo
+[ 45%] [32mBuilding C object CMakeFiles/mimick.dir/src/stub.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/mimick.dir/src/plt-elf.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/mimick.dir/src/trampoline.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/mimick.dir/src/verify.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/mimick.dir/src/vitals.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/mimick.dir/src/when.c.o[0m
+[ 72%] [32m[1mLinking C static library libmimick.a[0m
+[ 72%] Built target mimick
+[ 81%] [32mBuilding C object test/CMakeFiles/mmk_test_c.dir/test.c.o[0m
+[ 81%] [32mBuilding C object sample/strdup/CMakeFiles/strdup_test.dir/test.c.o[0m
+[ 86%] [32mBuilding CXX object test/CMakeFiles/mmk_test_cxx.dir/test.cpp.o[0m
+[ 90%] [32m[1mLinking C executable strdup_test[0m
+/usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+[ 90%] Built target strdup_test
+[ 95%] [32m[1mLinking C executable mmk_test_c[0m
+/usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+[ 95%] Built target mmk_test_c
+[100%] [32m[1mLinking CXX executable mmk_test_cxx[0m
+/usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+[100%] Built target mmk_test_cxx
+[100%] Built target mimick_tests
+[ 87%] [34m[1mPerforming install step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[ 18%] Built target foo
+[ 18%] Built target strdup
+[ 72%] Built target mimick
+[ 81%] Built target mmk_test_cxx
+[ 90%] Built target mmk_test_c
+[100%] Built target strdup_test
+[100%] Built target mimick_tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot copy file
+  "/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7/include/mimick/alloc.h"
+  to "/usr/local/include/mimick/alloc.h": Permission denied.
+
+[0m
+-- Installing: /usr/local/include/mimick/alloc.h
+gmake[3]: *** [Makefile:110: install] Error 1
+gmake[2]: *** [CMakeFiles/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7.dir/build.make:103: mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-stamp/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-install] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

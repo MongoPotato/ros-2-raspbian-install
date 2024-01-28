@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000845] (mimick_vendor) JobQueued: {'identifier': 'mimick_vendor', 'dependencies': OrderedDict()}
+[0.001625] (mimick_vendor) JobStarted: {'identifier': 'mimick_vendor'}
+[0.099370] (-) TimerEvent: {}
+[0.122510] (mimick_vendor) JobProgress: {'identifier': 'mimick_vendor', 'progress': 'cmake'}
+[0.123186] (mimick_vendor) Command: {'cmd': ['/usr/bin/cmake', '/home/pitemp/ros2_humble/src/ros2/mimick_vendor', "-DCMAKE_SHARED_LINKER_FLAGS='-latomic'", "-DCMAKE_EXE_LINKER_FLAGS='-latomic'", '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pitemp/ros2_humble/src/ros2/mimick_vendor/install/mimick_vendor'], 'cwd': '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor', 'env': OrderedDict([('USER', 'pitemp'), ('XDG_SEAT', 'seat0'), ('WLR_DRM_NAME', '/dev/dri/card0'), ('TEXTDOMAIN', 'Linux-PAM'), ('SSH_AGENT_PID', '1011'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '24'), ('SHLVL', '1'), ('HOME', '/home/pitemp'), ('OLDPWD', '/home/pitemp/ros2_humble/src/ros2'), ('DESKTOP_SESSION', 'LXDE-pi-wayfire'), ('WLR_XWAYLAND', '/usr/bin/xwayland-xauth'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/raspi-ui-overrides/applications/lxterminal.desktop'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1887'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('LOGNAME', 'pitemp'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('SAL_USE_VCLPLUGIN', 'gtk3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'lxde-pi-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'PiXflat'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_SESSION_DESKTOP', 'LXDE-pi-wayfire'), ('XAUTHORITY', '/home/pitemp/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXSqUB6i/agent.944'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm/data/pitemp'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'LXDE-pi-wayfire'), ('_JAVA_AWT_WM_NONREPARENTING', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg'), ('WAYFIRE_CONFIG_FILE', '/home/pitemp/.config/wayfire.ini'), ('COLCON', '1'), ('VTE_VERSION', '7006')]), 'shell': False}
+[0.199603] (-) TimerEvent: {}
+[0.300458] (-) TimerEvent: {}
+[0.371057] (mimick_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.2.0\n'}
+[0.400616] (-) TimerEvent: {}
+[0.501386] (-) TimerEvent: {}
+[0.602204] (-) TimerEvent: {}
+[0.626853] (mimick_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.2.0\n'}
+[0.661916] (mimick_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702390] (-) TimerEvent: {}
+[0.803261] (-) TimerEvent: {}
+[0.904098] (-) TimerEvent: {}
+[0.977792] (mimick_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.004273] (-) TimerEvent: {}
+[1.015723] (mimick_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.016703] (mimick_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.018314] (mimick_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.032298] (mimick_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.104495] (-) TimerEvent: {}
+[1.205463] (-) TimerEvent: {}
+[1.306221] (-) TimerEvent: {}
+[1.407081] (-) TimerEvent: {}
+[1.430008] (mimick_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.466399] (mimick_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.467418] (mimick_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.469418] (mimick_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.491568] (mimick_vendor) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[1.492306] (mimick_vendor) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.492571] (mimick_vendor) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.492812] (mimick_vendor) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.493047] (mimick_vendor) StderrLine: {'line': b'\n'}
+[1.493297] (mimick_vendor) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.493531] (mimick_vendor) StderrLine: {'line': b'  any of the following names:\n'}
+[1.493767] (mimick_vendor) StderrLine: {'line': b'\n'}
+[1.494002] (mimick_vendor) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.494248] (mimick_vendor) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.494482] (mimick_vendor) StderrLine: {'line': b'\n'}
+[1.494766] (mimick_vendor) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.495077] (mimick_vendor) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.495432] (mimick_vendor) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.495732] (mimick_vendor) StderrLine: {'line': b'  has been installed.\n'}
+[1.496047] (mimick_vendor) StderrLine: {'line': b'\n'}
+[1.496438] (mimick_vendor) StderrLine: {'line': b'\x1b[0m\n'}
+[1.496744] (mimick_vendor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.497010] (mimick_vendor) StdoutLine: {'line': b'See also "/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/CMakeFiles/CMakeOutput.log".\n'}
+[1.501864] (mimick_vendor) CommandEnded: {'returncode': 1}
+[1.507205] (-) TimerEvent: {}
+[1.607999] (-) TimerEvent: {}
+[1.686333] (mimick_vendor) JobEnded: {'identifier': 'mimick_vendor', 'rc': 1}
+[1.698714] (-) EventReactorShutdown: {}

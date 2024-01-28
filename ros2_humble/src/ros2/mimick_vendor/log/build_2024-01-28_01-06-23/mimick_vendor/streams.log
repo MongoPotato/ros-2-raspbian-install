@@ -1,0 +1,39 @@
+[0.137s] Invoking command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor': /usr/bin/cmake --build /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor -- -j4 -l4
+[0.323s] [ 12%] [34m[1mPerforming install step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[0.503s] [  9%] Built target foo
+[0.504s] [ 18%] Built target strdup
+[0.513s] [ 72%] Built target mimick
+[0.601s] [ 90%] Built target mmk_test_c
+[0.601s] [ 90%] Built target strdup_test
+[0.603s] [100%] Built target mmk_test_cxx
+[0.683s] [100%] Built target mimick_tests
+[0.758s] [36mInstall the project...[0m
+[0.793s] -- Install configuration: ""
+[0.794s] -- Installing: /usr/local/include/mimick/alloc.h
+[0.795s] -- Installing: /usr/local/include/mimick/assert.h
+[0.796s] -- Installing: /usr/local/include/mimick/literal.h
+[0.797s] -- Installing: /usr/local/include/mimick/matcher.h
+[0.798s] -- Installing: /usr/local/include/mimick/mock.h
+[0.799s] -- Installing: /usr/local/include/mimick/preprocess.h
+[0.801s] -- Installing: /usr/local/include/mimick/string.h
+[0.802s] -- Installing: /usr/local/include/mimick/unmocked.h
+[0.803s] -- Installing: /usr/local/include/mimick/va.h
+[0.804s] -- Installing: /usr/local/include/mimick/verify.h
+[0.804s] -- Installing: /usr/local/include/mimick/when.h
+[0.805s] -- Installing: /usr/local/include/mimick/mimick.h
+[0.806s] -- Installing: /usr/local/lib/libmimick.a
+[0.807s] -- Installing: /usr/local/lib/cmake/mimick/mimick-targets.cmake
+[0.808s] -- Installing: /usr/local/lib/cmake/mimick/mimick-targets-noconfig.cmake
+[0.809s] -- Installing: /usr/local/lib/cmake/mimick/mimickConfig.cmake
+[0.884s] [ 25%] [34m[1mCompleted 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[1.018s] [100%] Built target mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7
+[1.060s] Invoked command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor' returned '0': /usr/bin/cmake --build /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor -- -j4 -l4
+[1.166s] Invoking command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor': /usr/bin/cmake --install /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor
+[1.199s] -- Install configuration: ""
+[1.199s] [31mCMake Error at cmake_install.cmake:54 (file):
+[1.199s]   file INSTALL cannot find
+[1.200s]   "/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick_vendor_install":
+[1.200s]   No such file or directory.
+[1.200s] 
+[1.201s] [0m
+[1.203s] Invoked command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor' returned '1': /usr/bin/cmake --install /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor

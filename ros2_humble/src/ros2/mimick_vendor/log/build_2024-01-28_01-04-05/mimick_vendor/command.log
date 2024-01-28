@@ -1,0 +1,2 @@
+Invoking command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor': /usr/bin/cmake /home/pitemp/ros2_humble/src/ros2/mimick_vendor -DCMAKE_INSTALL_PREFIX=/home/pitemp/ros2_humble/src/ros2/mimick_vendor/install/mimick_vendor
+Invoked command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor' returned '1': /usr/bin/cmake /home/pitemp/ros2_humble/src/ros2/mimick_vendor -DCMAKE_INSTALL_PREFIX=/home/pitemp/ros2_humble/src/ros2/mimick_vendor/install/mimick_vendor
