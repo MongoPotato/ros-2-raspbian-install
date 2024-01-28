@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-gcc  -std=c99 -Wall -Wextra -Wno-unused-parameter -pedantic -Werror -rdynamic CMakeFiles/mmk_test_c.dir/test.c.o -o mmk_test_c  -Wl,-rpath,/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-build/test ../libmimick.a libfoo.so 

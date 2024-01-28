@@ -1,0 +1,18 @@
+Cloning into 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'...
+HEAD is now at de11f83 Support raspberry pi zero (#21)
+/usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+/usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+/usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot copy file
+  "/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7/include/mimick/alloc.h"
+  to "/usr/local/include/mimick/alloc.h": Permission denied.
+
+[0m
+gmake[3]: *** [Makefile:110: install] Error 1
+gmake[2]: *** [CMakeFiles/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7.dir/build.make:103: mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-stamp/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-install] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

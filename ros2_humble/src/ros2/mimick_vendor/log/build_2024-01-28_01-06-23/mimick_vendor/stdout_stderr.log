@@ -1,0 +1,35 @@
+[ 12%] [34m[1mPerforming install step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[  9%] Built target foo
+[ 18%] Built target strdup
+[ 72%] Built target mimick
+[ 90%] Built target mmk_test_c
+[ 90%] Built target strdup_test
+[100%] Built target mmk_test_cxx
+[100%] Built target mimick_tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /usr/local/include/mimick/alloc.h
+-- Installing: /usr/local/include/mimick/assert.h
+-- Installing: /usr/local/include/mimick/literal.h
+-- Installing: /usr/local/include/mimick/matcher.h
+-- Installing: /usr/local/include/mimick/mock.h
+-- Installing: /usr/local/include/mimick/preprocess.h
+-- Installing: /usr/local/include/mimick/string.h
+-- Installing: /usr/local/include/mimick/unmocked.h
+-- Installing: /usr/local/include/mimick/va.h
+-- Installing: /usr/local/include/mimick/verify.h
+-- Installing: /usr/local/include/mimick/when.h
+-- Installing: /usr/local/include/mimick/mimick.h
+-- Installing: /usr/local/lib/libmimick.a
+-- Installing: /usr/local/lib/cmake/mimick/mimick-targets.cmake
+-- Installing: /usr/local/lib/cmake/mimick/mimick-targets-noconfig.cmake
+-- Installing: /usr/local/lib/cmake/mimick/mimickConfig.cmake
+[ 25%] [34m[1mCompleted 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[100%] Built target mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7
+-- Install configuration: ""
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick_vendor_install":
+  No such file or directory.
+
+[0m

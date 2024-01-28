@@ -1,0 +1,237 @@
+[0.000000] (-) TimerEvent: {}
+[0.001307] (mimick_vendor) JobQueued: {'identifier': 'mimick_vendor', 'dependencies': OrderedDict()}
+[0.001865] (mimick_vendor) JobStarted: {'identifier': 'mimick_vendor'}
+[0.099180] (-) TimerEvent: {}
+[0.120576] (mimick_vendor) JobProgress: {'identifier': 'mimick_vendor', 'progress': 'cmake'}
+[0.124427] (mimick_vendor) Command: {'cmd': ['/usr/bin/cmake', '/home/pitemp/ros2_humble/src/ros2/mimick_vendor', '-DCMAKE_INSTALL_PREFIX=/home/pitemp/ros2_humble/src/ros2/mimick_vendor/install/mimick_vendor'], 'cwd': '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor', 'env': OrderedDict([('USER', 'pitemp'), ('XDG_SEAT', 'seat0'), ('WLR_DRM_NAME', '/dev/dri/card0'), ('TEXTDOMAIN', 'Linux-PAM'), ('SSH_AGENT_PID', '1011'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '24'), ('SHLVL', '1'), ('HOME', '/home/pitemp'), ('OLDPWD', '/home/pitemp/ros2_humble/src/ros2'), ('DESKTOP_SESSION', 'LXDE-pi-wayfire'), ('WLR_XWAYLAND', '/usr/bin/xwayland-xauth'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/raspi-ui-overrides/applications/lxterminal.desktop'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1887'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('LOGNAME', 'pitemp'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('SAL_USE_VCLPLUGIN', 'gtk3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'lxde-pi-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'PiXflat'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_SESSION_DESKTOP', 'LXDE-pi-wayfire'), ('XAUTHORITY', '/home/pitemp/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXSqUB6i/agent.944'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm/data/pitemp'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'LXDE-pi-wayfire'), ('_JAVA_AWT_WM_NONREPARENTING', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg'), ('WAYFIRE_CONFIG_FILE', '/home/pitemp/.config/wayfire.ini'), ('COLCON', '1'), ('VTE_VERSION', '7006')]), 'shell': False}
+[0.199429] (-) TimerEvent: {}
+[0.243040] (mimick_vendor) StdoutLine: {'line': b'-- CMAKE_CURRENT_BINARY_DIR: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor\n'}
+[0.243702] (mimick_vendor) StdoutLine: {'line': b'-- PROJECT_NAME install dir: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick_vendor_install\n'}
+[0.244187] (mimick_vendor) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.252784] (mimick_vendor) StdoutLine: {'line': b'-- Generating done\n'}
+[0.255292] (mimick_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor\n'}
+[0.261659] (mimick_vendor) CommandEnded: {'returncode': 0}
+[0.263057] (mimick_vendor) JobProgress: {'identifier': 'mimick_vendor', 'progress': 'build'}
+[0.264774] (mimick_vendor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor', '--', '-j4', '-l4'], 'cwd': '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor', 'env': OrderedDict([('USER', 'pitemp'), ('XDG_SEAT', 'seat0'), ('WLR_DRM_NAME', '/dev/dri/card0'), ('TEXTDOMAIN', 'Linux-PAM'), ('SSH_AGENT_PID', '1011'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '24'), ('SHLVL', '1'), ('HOME', '/home/pitemp'), ('OLDPWD', '/home/pitemp/ros2_humble/src/ros2'), ('DESKTOP_SESSION', 'LXDE-pi-wayfire'), ('WLR_XWAYLAND', '/usr/bin/xwayland-xauth'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/raspi-ui-overrides/applications/lxterminal.desktop'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1887'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('LOGNAME', 'pitemp'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('SAL_USE_VCLPLUGIN', 'gtk3'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'lxde-pi-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'PiXflat'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_SESSION_DESKTOP', 'LXDE-pi-wayfire'), ('XAUTHORITY', '/home/pitemp/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXSqUB6i/agent.944'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm/data/pitemp'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'LXDE-pi-wayfire'), ('_JAVA_AWT_WM_NONREPARENTING', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share/raspi-ui-overrides:/usr/share:/usr/share/gdm:/var/lib/menu-xdg'), ('WAYFIRE_CONFIG_FILE', '/home/pitemp/.config/wayfire.ini'), ('COLCON', '1'), ('VTE_VERSION', '7006')]), 'shell': False}
+[0.299619] (-) TimerEvent: {}
+[0.400370] (-) TimerEvent: {}
+[0.457250] (mimick_vendor) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'\x1b[0m\n"}
+[0.500560] (-) TimerEvent: {}
+[0.560964] (mimick_vendor) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'\x1b[0m\n"}
+[0.600823] (-) TimerEvent: {}
+[0.639352] (mimick_vendor) StderrLine: {'line': b"Cloning into 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'...\n"}
+[0.700990] (-) TimerEvent: {}
+[0.801613] (-) TimerEvent: {}
+[0.902183] (-) TimerEvent: {}
+[1.002773] (-) TimerEvent: {}
+[1.103359] (-) TimerEvent: {}
+[1.203937] (-) TimerEvent: {}
+[1.304497] (-) TimerEvent: {}
+[1.405063] (-) TimerEvent: {}
+[1.505638] (-) TimerEvent: {}
+[1.606192] (-) TimerEvent: {}
+[1.706747] (-) TimerEvent: {}
+[1.807309] (-) TimerEvent: {}
+[1.907871] (-) TimerEvent: {}
+[2.008427] (-) TimerEvent: {}
+[2.108978] (-) TimerEvent: {}
+[2.209522] (-) TimerEvent: {}
+[2.310087] (-) TimerEvent: {}
+[2.410647] (-) TimerEvent: {}
+[2.511207] (-) TimerEvent: {}
+[2.611765] (-) TimerEvent: {}
+[2.712315] (-) TimerEvent: {}
+[2.812876] (-) TimerEvent: {}
+[2.913446] (-) TimerEvent: {}
+[3.014004] (-) TimerEvent: {}
+[3.114557] (-) TimerEvent: {}
+[3.215114] (-) TimerEvent: {}
+[3.315664] (-) TimerEvent: {}
+[3.416223] (-) TimerEvent: {}
+[3.516776] (-) TimerEvent: {}
+[3.617326] (-) TimerEvent: {}
+[3.717890] (-) TimerEvent: {}
+[3.818516] (-) TimerEvent: {}
+[3.919177] (-) TimerEvent: {}
+[4.019748] (-) TimerEvent: {}
+[4.120319] (-) TimerEvent: {}
+[4.220921] (-) TimerEvent: {}
+[4.321571] (-) TimerEvent: {}
+[4.428385] (-) TimerEvent: {}
+[4.529229] (-) TimerEvent: {}
+[4.568355] (mimick_vendor) StderrLine: {'line': b'HEAD is now at de11f83 Support raspberry pi zero (#21)\n'}
+[4.629453] (-) TimerEvent: {}
+[4.730130] (-) TimerEvent: {}
+[4.739265] (mimick_vendor) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'\x1b[0m\n"}
+[4.830327] (-) TimerEvent: {}
+[4.849341] (mimick_vendor) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'\x1b[0m\n"}
+[4.930525] (-) TimerEvent: {}
+[4.952324] (mimick_vendor) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'\x1b[0m\n"}
+[5.030727] (-) TimerEvent: {}
+[5.131451] (-) TimerEvent: {}
+[5.211697] (mimick_vendor) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.2.0\n'}
+[5.231647] (-) TimerEvent: {}
+[5.332419] (-) TimerEvent: {}
+[5.433156] (-) TimerEvent: {}
+[5.490878] (mimick_vendor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.2.0\n'}
+[5.528117] (mimick_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.533313] (-) TimerEvent: {}
+[5.634191] (-) TimerEvent: {}
+[5.734957] (-) TimerEvent: {}
+[5.826163] (mimick_vendor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.835076] (-) TimerEvent: {}
+[5.865911] (mimick_vendor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc - skipped\n'}
+[5.867664] (mimick_vendor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.870445] (mimick_vendor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.900668] (mimick_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.935387] (-) TimerEvent: {}
+[6.036452] (-) TimerEvent: {}
+[6.137184] (-) TimerEvent: {}
+[6.238011] (-) TimerEvent: {}
+[6.304143] (mimick_vendor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.338163] (-) TimerEvent: {}
+[6.345156] (mimick_vendor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ - skipped\n'}
+[6.346429] (mimick_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.348903] (mimick_vendor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.384087] (mimick_vendor) StdoutLine: {'line': b'-- The ASM compiler identification is GNU\n'}
+[6.391838] (mimick_vendor) StdoutLine: {'line': b'-- Found assembler: /usr/bin/arm-linux-gnueabihf-gcc\n'}
+[6.398926] (mimick_vendor) StdoutLine: {'line': b'-- Looking for __stdio_common_vfprintf\n'}
+[6.438352] (-) TimerEvent: {}
+[6.539072] (-) TimerEvent: {}
+[6.544685] (mimick_vendor) StdoutLine: {'line': b'-- Looking for __stdio_common_vfprintf - not found\n'}
+[6.546553] (mimick_vendor) StdoutLine: {'line': b'-- Looking for _r_debug\n'}
+[6.639275] (-) TimerEvent: {}
+[6.740013] (-) TimerEvent: {}
+[6.840697] (-) TimerEvent: {}
+[6.858232] (mimick_vendor) StdoutLine: {'line': b'-- Looking for _r_debug - found\n'}
+[6.859895] (mimick_vendor) StdoutLine: {'line': b'-- Looking for _DYNAMIC\n'}
+[6.940881] (-) TimerEvent: {}
+[7.041598] (-) TimerEvent: {}
+[7.142441] (-) TimerEvent: {}
+[7.189305] (mimick_vendor) StdoutLine: {'line': b'-- Looking for _DYNAMIC - found\n'}
+[7.191969] (mimick_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_ELF_AUXV_T\n'}
+[7.242584] (-) TimerEvent: {}
+[7.343247] (-) TimerEvent: {}
+[7.444124] (-) TimerEvent: {}
+[7.507503] (mimick_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_ELF_AUXV_T - Success\n'}
+[7.509359] (mimick_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_ELF_AUXINFO\n'}
+[7.544265] (-) TimerEvent: {}
+[7.639990] (mimick_vendor) StdoutLine: {'line': b'-- Performing Test HAVE_ELF_AUXINFO - Failed\n'}
+[7.641706] (mimick_vendor) StdoutLine: {'line': b'-- Looking for mmap\n'}
+[7.644437] (-) TimerEvent: {}
+[7.745069] (-) TimerEvent: {}
+[7.845832] (-) TimerEvent: {}
+[7.948390] (-) TimerEvent: {}
+[7.949634] (mimick_vendor) StdoutLine: {'line': b'-- Looking for mmap - found\n'}
+[7.950820] (mimick_vendor) StdoutLine: {'line': b'-- Looking for MAP_ANONYMOUS\n'}
+[8.048635] (-) TimerEvent: {}
+[8.149452] (-) TimerEvent: {}
+[8.250208] (-) TimerEvent: {}
+[8.256925] (mimick_vendor) StdoutLine: {'line': b'-- Looking for MAP_ANONYMOUS - found\n'}
+[8.258029] (mimick_vendor) StdoutLine: {'line': b'-- Looking for MAP_ANON\n'}
+[8.350417] (-) TimerEvent: {}
+[8.451294] (-) TimerEvent: {}
+[8.552147] (-) TimerEvent: {}
+[8.563669] (mimick_vendor) StdoutLine: {'line': b'-- Looking for MAP_ANON - found\n'}
+[8.579706] (mimick_vendor) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.636638] (mimick_vendor) StdoutLine: {'line': b'-- Generating done\n'}
+[8.642983] (mimick_vendor) StdoutLine: {'line': b'-- Build files have been written to: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-build\n'}
+[8.652333] (-) TimerEvent: {}
+[8.725529] (mimick_vendor) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'\x1b[0m\n"}
+[8.752532] (-) TimerEvent: {}
+[8.853377] (-) TimerEvent: {}
+[8.897709] (mimick_vendor) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object sample/strdup/CMakeFiles/strdup.dir/strdup.c.o\x1b[0m\n'}
+[8.902223] (mimick_vendor) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object test/CMakeFiles/foo.dir/libfoo.c.o\x1b[0m\n'}
+[8.903886] (mimick_vendor) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/core.c.o\x1b[0m\n'}
+[8.910346] (mimick_vendor) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding ASM object CMakeFiles/mimick.dir/src/asm/trampoline-arm.S.o\x1b[0m\n'}
+[8.953626] (-) TimerEvent: {}
+[9.007108] (mimick_vendor) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/matcher.c.o\x1b[0m\n'}
+[9.046994] (mimick_vendor) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking C shared library libstrdup.so\x1b[0m\n'}
+[9.053837] (-) TimerEvent: {}
+[9.056902] (mimick_vendor) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking C shared library libfoo.so\x1b[0m\n'}
+[9.139131] (mimick_vendor) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/mock.c.o\x1b[0m\n'}
+[9.154181] (-) TimerEvent: {}
+[9.247654] (mimick_vendor) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/plt.c.o\x1b[0m\n'}
+[9.254413] (-) TimerEvent: {}
+[9.278250] (mimick_vendor) StdoutLine: {'line': b'[ 40%] Built target strdup\n'}
+[9.279271] (mimick_vendor) StdoutLine: {'line': b'[ 40%] Built target foo\n'}
+[9.323802] (mimick_vendor) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/stub.c.o\x1b[0m\n'}
+[9.326833] (mimick_vendor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/plt-elf.c.o\x1b[0m\n'}
+[9.354687] (-) TimerEvent: {}
+[9.439714] (mimick_vendor) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/trampoline.c.o\x1b[0m\n'}
+[9.452157] (mimick_vendor) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/verify.c.o\x1b[0m\n'}
+[9.454926] (-) TimerEvent: {}
+[9.556252] (-) TimerEvent: {}
+[9.596992] (mimick_vendor) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/vitals.c.o\x1b[0m\n'}
+[9.606433] (mimick_vendor) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/mimick.dir/src/when.c.o\x1b[0m\n'}
+[9.656499] (-) TimerEvent: {}
+[9.757647] (-) TimerEvent: {}
+[9.803172] (mimick_vendor) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C static library libmimick.a\x1b[0m\n'}
+[9.857814] (-) TimerEvent: {}
+[9.958678] (-) TimerEvent: {}
+[10.047085] (mimick_vendor) StdoutLine: {'line': b'[ 72%] Built target mimick\n'}
+[10.058861] (-) TimerEvent: {}
+[10.133612] (mimick_vendor) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object test/CMakeFiles/mmk_test_c.dir/test.c.o\x1b[0m\n'}
+[10.134578] (mimick_vendor) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object sample/strdup/CMakeFiles/strdup_test.dir/test.c.o\x1b[0m\n'}
+[10.140665] (mimick_vendor) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object test/CMakeFiles/mmk_test_cxx.dir/test.cpp.o\x1b[0m\n'}
+[10.159116] (-) TimerEvent: {}
+[10.259929] (-) TimerEvent: {}
+[10.360699] (-) TimerEvent: {}
+[10.371650] (mimick_vendor) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C executable strdup_test\x1b[0m\n'}
+[10.460979] (-) TimerEvent: {}
+[10.506698] (mimick_vendor) StderrLine: {'line': b'/usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack\n'}
+[10.507399] (mimick_vendor) StderrLine: {'line': b'/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker\n'}
+[10.561199] (-) TimerEvent: {}
+[10.581101] (mimick_vendor) StdoutLine: {'line': b'[ 90%] Built target strdup_test\n'}
+[10.662117] (-) TimerEvent: {}
+[10.763518] (-) TimerEvent: {}
+[10.864581] (-) TimerEvent: {}
+[10.965625] (-) TimerEvent: {}
+[11.007476] (mimick_vendor) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C executable mmk_test_c\x1b[0m\n'}
+[11.065803] (-) TimerEvent: {}
+[11.127603] (mimick_vendor) StderrLine: {'line': b'/usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack\n'}
+[11.128189] (mimick_vendor) StderrLine: {'line': b'/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker\n'}
+[11.166218] (-) TimerEvent: {}
+[11.209454] (mimick_vendor) StdoutLine: {'line': b'[ 95%] Built target mmk_test_c\n'}
+[11.266360] (-) TimerEvent: {}
+[11.364586] (mimick_vendor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mmk_test_cxx\x1b[0m\n'}
+[11.366536] (-) TimerEvent: {}
+[11.467330] (-) TimerEvent: {}
+[11.518861] (mimick_vendor) StderrLine: {'line': b'/usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack\n'}
+[11.519366] (mimick_vendor) StderrLine: {'line': b'/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker\n'}
+[11.567534] (-) TimerEvent: {}
+[11.586239] (mimick_vendor) StdoutLine: {'line': b'[100%] Built target mmk_test_cxx\n'}
+[11.665299] (mimick_vendor) StdoutLine: {'line': b'[100%] Built target mimick_tests\n'}
+[11.667729] (-) TimerEvent: {}
+[11.768493] (-) TimerEvent: {}
+[11.772031] (mimick_vendor) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming install step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'\x1b[0m\n"}
+[11.868725] (-) TimerEvent: {}
+[11.946663] (mimick_vendor) StdoutLine: {'line': b'[ 18%] Built target foo\n'}
+[11.947676] (mimick_vendor) StdoutLine: {'line': b'[ 18%] Built target strdup\n'}
+[11.968934] (-) TimerEvent: {}
+[11.970076] (mimick_vendor) StdoutLine: {'line': b'[ 72%] Built target mimick\n'}
+[12.062463] (mimick_vendor) StdoutLine: {'line': b'[ 81%] Built target mmk_test_cxx\n'}
+[12.065069] (mimick_vendor) StdoutLine: {'line': b'[ 90%] Built target mmk_test_c\n'}
+[12.066684] (mimick_vendor) StdoutLine: {'line': b'[100%] Built target strdup_test\n'}
+[12.069114] (-) TimerEvent: {}
+[12.144814] (mimick_vendor) StdoutLine: {'line': b'[100%] Built target mimick_tests\n'}
+[12.169303] (-) TimerEvent: {}
+[12.219094] (mimick_vendor) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[12.255220] (mimick_vendor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.256062] (mimick_vendor) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:46 (file):\n'}
+[12.256376] (mimick_vendor) StderrLine: {'line': b'  file INSTALL cannot copy file\n'}
+[12.256651] (mimick_vendor) StderrLine: {'line': b'  "/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7/include/mimick/alloc.h"\n'}
+[12.256926] (mimick_vendor) StderrLine: {'line': b'  to "/usr/local/include/mimick/alloc.h": Permission denied.\n'}
+[12.257199] (mimick_vendor) StderrLine: {'line': b'\n'}
+[12.257494] (mimick_vendor) StderrLine: {'line': b'\x1b[0m\n'}
+[12.257752] (mimick_vendor) StdoutLine: {'line': b'-- Installing: /usr/local/include/mimick/alloc.h\n'}
+[12.259365] (mimick_vendor) StderrLine: {'line': b'gmake[3]: *** [Makefile:110: install] Error 1\n'}
+[12.260373] (mimick_vendor) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7.dir/build.make:103: mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-stamp/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-install] Error 2\n'}
+[12.261593] (mimick_vendor) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7.dir/all] Error 2\n'}
+[12.262054] (mimick_vendor) StderrLine: {'line': b'gmake: *** [Makefile:136: all] Error 2\n'}
+[12.266553] (mimick_vendor) CommandEnded: {'returncode': 2}
+[12.269517] (-) TimerEvent: {}
+[12.370877] (-) TimerEvent: {}
+[12.471939] (-) TimerEvent: {}
+[12.522320] (mimick_vendor) JobEnded: {'identifier': 'mimick_vendor', 'rc': 2}
+[12.525316] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+[0.131s] Invoking command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor': /usr/bin/cmake /home/pitemp/ros2_humble/src/ros2/mimick_vendor -DCMAKE_INSTALL_PREFIX=/home/pitemp/ros2_humble/src/ros2/mimick_vendor/install/mimick_vendor
+[0.244s] -- CMAKE_CURRENT_BINARY_DIR: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor
+[0.244s] -- PROJECT_NAME install dir: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick_vendor_install
+[0.244s] [31mCMake Error at CMakeLists.txt:91 (ament_export_include_directories):
+[0.245s]   Unknown CMake command "ament_export_include_directories".
+[0.245s] 
+[0.245s] [0m
+[0.245s] -- Configuring incomplete, errors occurred!
+[0.246s] See also "/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/CMakeFiles/CMakeOutput.log".
+[0.252s] Invoked command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor' returned '1': /usr/bin/cmake /home/pitemp/ros2_humble/src/ros2/mimick_vendor -DCMAKE_INSTALL_PREFIX=/home/pitemp/ros2_humble/src/ros2/mimick_vendor/install/mimick_vendor

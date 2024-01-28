@@ -1,0 +1,106 @@
+[0.132s] Invoking command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor': /usr/bin/cmake /home/pitemp/ros2_humble/src/ros2/mimick_vendor -DCMAKE_INSTALL_PREFIX=/home/pitemp/ros2_humble/src/ros2/mimick_vendor/install/mimick_vendor
+[0.241s] -- CMAKE_CURRENT_BINARY_DIR: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor
+[0.242s] -- PROJECT_NAME install dir: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick_vendor_install
+[0.242s] -- Configuring done
+[0.251s] -- Generating done
+[0.254s] -- Build files have been written to: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor
+[0.260s] Invoked command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor' returned '0': /usr/bin/cmake /home/pitemp/ros2_humble/src/ros2/mimick_vendor -DCMAKE_INSTALL_PREFIX=/home/pitemp/ros2_humble/src/ros2/mimick_vendor/install/mimick_vendor
+[0.265s] Invoking command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor': /usr/bin/cmake --build /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor -- -j4 -l4
+[0.456s] [ 12%] [34m[1mCreating directories for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[0.559s] [ 25%] [34m[1mPerforming download step (git clone) for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[0.638s] Cloning into 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'...
+[4.567s] HEAD is now at de11f83 Support raspberry pi zero (#21)
+[4.738s] [ 37%] [34m[1mNo update step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[4.848s] [ 50%] [34m[1mNo patch step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[4.951s] [ 62%] [34m[1mPerforming configure step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[5.210s] -- The C compiler identification is GNU 12.2.0
+[5.489s] -- The CXX compiler identification is GNU 12.2.0
+[5.526s] -- Detecting C compiler ABI info
+[5.824s] -- Detecting C compiler ABI info - done
+[5.864s] -- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc - skipped
+[5.867s] -- Detecting C compile features
+[5.869s] -- Detecting C compile features - done
+[5.899s] -- Detecting CXX compiler ABI info
+[6.302s] -- Detecting CXX compiler ABI info - done
+[6.343s] -- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ - skipped
+[6.345s] -- Detecting CXX compile features
+[6.347s] -- Detecting CXX compile features - done
+[6.382s] -- The ASM compiler identification is GNU
+[6.390s] -- Found assembler: /usr/bin/arm-linux-gnueabihf-gcc
+[6.397s] -- Looking for __stdio_common_vfprintf
+[6.543s] -- Looking for __stdio_common_vfprintf - not found
+[6.545s] -- Looking for _r_debug
+[6.857s] -- Looking for _r_debug - found
+[6.858s] -- Looking for _DYNAMIC
+[7.188s] -- Looking for _DYNAMIC - found
+[7.190s] -- Performing Test HAVE_ELF_AUXV_T
+[7.506s] -- Performing Test HAVE_ELF_AUXV_T - Success
+[7.508s] -- Performing Test HAVE_ELF_AUXINFO
+[7.638s] -- Performing Test HAVE_ELF_AUXINFO - Failed
+[7.640s] -- Looking for mmap
+[7.948s] -- Looking for mmap - found
+[7.949s] -- Looking for MAP_ANONYMOUS
+[8.255s] -- Looking for MAP_ANONYMOUS - found
+[8.256s] -- Looking for MAP_ANON
+[8.562s] -- Looking for MAP_ANON - found
+[8.578s] -- Configuring done
+[8.635s] -- Generating done
+[8.641s] -- Build files have been written to: /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-build
+[8.724s] [ 75%] [34m[1mPerforming build step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[8.896s] [  4%] [32mBuilding C object sample/strdup/CMakeFiles/strdup.dir/strdup.c.o[0m
+[8.901s] [  9%] [32mBuilding C object test/CMakeFiles/foo.dir/libfoo.c.o[0m
+[8.902s] [ 13%] [32mBuilding C object CMakeFiles/mimick.dir/src/core.c.o[0m
+[8.909s] [ 18%] [32mBuilding ASM object CMakeFiles/mimick.dir/src/asm/trampoline-arm.S.o[0m
+[9.006s] [ 22%] [32mBuilding C object CMakeFiles/mimick.dir/src/matcher.c.o[0m
+[9.045s] [ 27%] [32m[1mLinking C shared library libstrdup.so[0m
+[9.055s] [ 31%] [32m[1mLinking C shared library libfoo.so[0m
+[9.138s] [ 36%] [32mBuilding C object CMakeFiles/mimick.dir/src/mock.c.o[0m
+[9.246s] [ 40%] [32mBuilding C object CMakeFiles/mimick.dir/src/plt.c.o[0m
+[9.277s] [ 40%] Built target strdup
+[9.278s] [ 40%] Built target foo
+[9.322s] [ 45%] [32mBuilding C object CMakeFiles/mimick.dir/src/stub.c.o[0m
+[9.325s] [ 50%] [32mBuilding C object CMakeFiles/mimick.dir/src/plt-elf.c.o[0m
+[9.438s] [ 54%] [32mBuilding C object CMakeFiles/mimick.dir/src/trampoline.c.o[0m
+[9.451s] [ 59%] [32mBuilding C object CMakeFiles/mimick.dir/src/verify.c.o[0m
+[9.596s] [ 63%] [32mBuilding C object CMakeFiles/mimick.dir/src/vitals.c.o[0m
+[9.605s] [ 68%] [32mBuilding C object CMakeFiles/mimick.dir/src/when.c.o[0m
+[9.801s] [ 72%] [32m[1mLinking C static library libmimick.a[0m
+[10.045s] [ 72%] Built target mimick
+[10.132s] [ 81%] [32mBuilding C object test/CMakeFiles/mmk_test_c.dir/test.c.o[0m
+[10.133s] [ 81%] [32mBuilding C object sample/strdup/CMakeFiles/strdup_test.dir/test.c.o[0m
+[10.139s] [ 86%] [32mBuilding CXX object test/CMakeFiles/mmk_test_cxx.dir/test.cpp.o[0m
+[10.370s] [ 90%] [32m[1mLinking C executable strdup_test[0m
+[10.505s] /usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack
+[10.506s] /usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+[10.580s] [ 90%] Built target strdup_test
+[11.006s] [ 95%] [32m[1mLinking C executable mmk_test_c[0m
+[11.126s] /usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack
+[11.126s] /usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+[11.208s] [ 95%] Built target mmk_test_c
+[11.363s] [100%] [32m[1mLinking CXX executable mmk_test_cxx[0m
+[11.517s] /usr/bin/ld: warning: trampoline-arm.S.o: missing .note.GNU-stack section implies executable stack
+[11.518s] /usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+[11.585s] [100%] Built target mmk_test_cxx
+[11.664s] [100%] Built target mimick_tests
+[11.770s] [ 87%] [34m[1mPerforming install step for 'mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7'[0m
+[11.945s] [ 18%] Built target foo
+[11.946s] [ 18%] Built target strdup
+[11.968s] [ 72%] Built target mimick
+[12.061s] [ 81%] Built target mmk_test_cxx
+[12.063s] [ 90%] Built target mmk_test_c
+[12.065s] [100%] Built target strdup_test
+[12.143s] [100%] Built target mimick_tests
+[12.217s] [36mInstall the project...[0m
+[12.254s] -- Install configuration: ""
+[12.254s] [31mCMake Error at cmake_install.cmake:46 (file):
+[12.255s]   file INSTALL cannot copy file
+[12.255s]   "/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7/include/mimick/alloc.h"
+[12.255s]   to "/usr/local/include/mimick/alloc.h": Permission denied.
+[12.255s] 
+[12.256s] [0m
+[12.256s] -- Installing: /usr/local/include/mimick/alloc.h
+[12.258s] gmake[3]: *** [Makefile:110: install] Error 1
+[12.259s] gmake[2]: *** [CMakeFiles/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7.dir/build.make:103: mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-prefix/src/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-stamp/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-install] Error 2
+[12.260s] gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7.dir/all] Error 2
+[12.260s] gmake: *** [Makefile:136: all] Error 2
+[12.265s] Invoked command in '/home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor' returned '2': /usr/bin/cmake --build /home/pitemp/ros2_humble/src/ros2/mimick_vendor/build/mimick_vendor -- -j4 -l4
