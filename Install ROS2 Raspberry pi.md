@@ -1,5 +1,6 @@
+## Manual Install instructions
 
-https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
+source https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
 
 You need to have a locale UTF-8, does not require to be en_US
 
@@ -74,6 +75,13 @@ Clone my custom made repository with all the CMakeLists.txt modifications to be 
 ```bash
 git clone https://github.com/MongoPotato/ros-2-raspbian-install.git
 cd ros2_humble/
+```
+
+if it does not work, then would need to go to "if need of modifications" and modify accordingly.
+```bash
+mkdir -p ~/ros2_humble/src
+cd ~/ros2_humble
+vcs import --input https://raw.githubusercontent.com/ros2/ros2/humble/ros2.repos src
 ```
 
 ### Install dependencies using rosdep
